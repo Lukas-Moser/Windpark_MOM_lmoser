@@ -1,0 +1,5 @@
+# Project exclude paths
+/windpark_demo1/.gradle/
+/windpark_demo2/.gradle/
+/windpark_demo2/build/
+/windpark_demo2/build/classes/java/main/

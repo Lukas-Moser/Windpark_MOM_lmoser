@@ -1,0 +1,39 @@
+2021-01-17 19:43:48,541 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@a67c67e: startup date [Sun Jan 17 19:43:48 CET 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2021-01-17 19:43:49,344 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[D:\school\Schule 2020_21\Labor_2020_21\SYT_Labor\DEZSYS_GK772_WINDPARK_MOM-master\apache-activemq-5.16.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2021-01-17 19:43:49,431 | INFO  | PListStore:[D:\school\Schule 2020_21\Labor_2020_21\SYT_Labor\DEZSYS_GK772_WINDPARK_MOM-master\apache-activemq-5.16.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2021-01-17 19:43:49,596 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:lmoser-60596-1610909029441-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2021-01-17 19:43:49,614 | INFO  | Listening for connections at: tcp://lmoser:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-01-17 19:43:49,614 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2021-01-17 19:43:49,618 | INFO  | Listening for connections at: amqp://lmoser:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-01-17 19:43:49,618 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2021-01-17 19:43:49,621 | INFO  | Listening for connections at: stomp://lmoser:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-01-17 19:43:49,622 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2021-01-17 19:43:49,625 | INFO  | Listening for connections at: mqtt://lmoser:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2021-01-17 19:43:49,626 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2021-01-17 19:43:49,630 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-01-17 19:43:49,707 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2021-01-17 19:43:49,860 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@72437d8d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2021-01-17 19:43:49,923 | INFO  | Listening for connections at ws://lmoser:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2021-01-17 19:43:49,923 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2021-01-17 19:43:49,925 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:lmoser-60596-1610909029441-0:1) started | org.apache.activemq.broker.BrokerService | main
+2021-01-17 19:43:49,925 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2021-01-17 19:43:49,928 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: D:\school\Schule 2020_21\Labor_2020_21\SYT_Labor\DEZSYS_GK772_WINDPARK_MOM-master\apache-activemq-5.16.0\bin\..\data\kahadb only has 76945 mb of usable space. - resetting to maximum available disk space: 76945 mb | org.apache.activemq.broker.BrokerService | main
+2021-01-17 19:43:50,607 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-01-17 19:43:50,608 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2021-01-17 22:11:44,209 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:lmoser-60596-1610909029441-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-21
+2021-01-17 22:11:44,211 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-01-17 22:11:44,211 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-01-17 22:11:44,211 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-01-17 22:11:44,212 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-01-17 22:11:44,212 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-01-17 22:11:44,212 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-01-17 22:11:44,212 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-01-17 22:11:44,212 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: stomp://0.0.0.0:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2021-01-17 22:11:44,224 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-21
+2021-01-17 22:11:44,227 | INFO  | PListStore:[D:\school\Schule 2020_21\Labor_2020_21\SYT_Labor\DEZSYS_GK772_WINDPARK_MOM-master\apache-activemq-5.16.0\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-21
+2021-01-17 22:11:44,227 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-01-17 22:11:44,228 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-01-17 22:11:44,229 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-21
+2021-01-17 22:11:44,240 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:lmoser-60596-1610909029441-0:1) uptime 2 hours 27 minutes | org.apache.activemq.broker.BrokerService | Thread-21
+2021-01-17 22:11:44,240 | INFO  | Apache ActiveMQ 5.16.0 (localhost, ID:lmoser-60596-1610909029441-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-21
+2021-01-17 22:11:44,241 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@a67c67e: startup date [Sun Jan 17 19:43:48 CET 2021]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-21

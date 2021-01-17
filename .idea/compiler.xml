@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="parknode" target="1.5" />
+      <module name="parknode (1)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="windpark_demo2.main" options="--add-exports java.management/com.sun.jmx.remote.util=ALL-UNNAMED --add-exports java.base/jdk.internal.icu.text=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
